@@ -21,6 +21,6 @@ public class Consumer {
 	 */
 	@StreamListener(InputSink.myInput)
 	public void receive(IngestionEvent event) {
-		log.trace("Received event {}", event);
+		log.info("Consuming event {}", event);
 	}
 }
