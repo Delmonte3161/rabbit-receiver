@@ -14,4 +14,4 @@ applications:
     SPRING_PROFILES_ACTIVE: cloud, dev, receiver4
   services:
   - config-server
-  - rabbitmq-cluster
+  - rabbitmq-solo
